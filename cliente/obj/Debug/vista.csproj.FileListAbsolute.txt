@@ -1,0 +1,31 @@
+C:\Users\MARTIN\documents\visual studio 2015\Projects\cliente\cliente\bin\Debug\cliente.exe.config
+C:\Users\MARTIN\documents\visual studio 2015\Projects\cliente\cliente\bin\Debug\cliente.exe
+C:\Users\MARTIN\documents\visual studio 2015\Projects\cliente\cliente\bin\Debug\cliente.pdb
+C:\Users\MARTIN\documents\visual studio 2015\Projects\cliente\cliente\bin\Debug\controlador.dll
+C:\Users\MARTIN\documents\visual studio 2015\Projects\cliente\cliente\bin\Debug\modelo.dll
+C:\Users\MARTIN\documents\visual studio 2015\Projects\cliente\cliente\bin\Debug\controlador.pdb
+C:\Users\MARTIN\documents\visual studio 2015\Projects\cliente\cliente\bin\Debug\modelo.pdb
+C:\Users\MARTIN\documents\visual studio 2015\Projects\cliente\cliente\obj\Debug\vista.csprojResolveAssemblyReference.cache
+C:\Users\MARTIN\documents\visual studio 2015\Projects\cliente\cliente\obj\Debug\cliente.cliente.resources
+C:\Users\MARTIN\documents\visual studio 2015\Projects\cliente\cliente\obj\Debug\cliente.Form_nuevoCliente.resources
+C:\Users\MARTIN\documents\visual studio 2015\Projects\cliente\cliente\obj\Debug\cliente.Properties.Resources.resources
+C:\Users\MARTIN\documents\visual studio 2015\Projects\cliente\cliente\obj\Debug\vista.csproj.GenerateResource.Cache
+C:\Users\MARTIN\documents\visual studio 2015\Projects\cliente\cliente\obj\Debug\cliente.exe
+C:\Users\MARTIN\documents\visual studio 2015\Projects\cliente\cliente\obj\Debug\cliente.pdb
+C:\Users\MARTIN\documents\visual studio 2015\Projects\cliente\cliente\obj\Debug\cliente.Form_modificarCliente.resources
+C:\Users\MARTIN\Documents\Visual Studio 2015\Projects\cliente\cliente\bin\Debug\MySql.Data.dll
+C:\Users\MARTIN\Documents\Visual Studio 2015\Projects\cliente\cliente\bin\Debug\Google.Protobuf.dll
+C:\Users\MARTIN\Documents\Visual Studio 2015\Projects\cliente\cliente\bin\Debug\Zstandard.Net.dll
+C:\Users\MARTIN\Documents\Visual Studio 2015\Projects\cliente\cliente\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\MARTIN\Documents\Visual Studio 2015\Projects\cliente\cliente\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\MARTIN\Documents\Visual Studio 2015\Projects\cliente\cliente\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\MARTIN\Documents\Visual Studio 2015\Projects\cliente\cliente\bin\Debug\Renci.SshNet.dll
+C:\Users\MARTIN\Documents\Visual Studio 2015\Projects\cliente\cliente\bin\Debug\System.Buffers.dll
+C:\Users\MARTIN\Documents\Visual Studio 2015\Projects\cliente\cliente\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\MARTIN\Documents\Visual Studio 2015\Projects\cliente\cliente\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\MARTIN\Documents\Visual Studio 2015\Projects\cliente\cliente\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\MARTIN\Documents\Visual Studio 2015\Projects\cliente\cliente\bin\Debug\MySql.Data.xml
+C:\Users\MARTIN\Documents\Visual Studio 2015\Projects\cliente\cliente\obj\Debug\vista.csproj.cliente.exe.config
+C:\Users\MARTIN\Documents\cliente\cliente\bin\Debug\cliente.exe.config
+C:\Users\MARTIN\Documents\cliente\cliente\obj\Debug\cliente.exe
+C:\Users\MARTIN\Documents\cliente\cliente\obj\Debug\cliente.pdb
