@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -42,7 +43,9 @@
             this.txt_correo = new System.Windows.Forms.TextBox();
             this.bt_cancelar = new System.Windows.Forms.Button();
             this.bt_agregar = new System.Windows.Forms.Button();
+            this.validate = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.validate)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -122,6 +125,7 @@
             this.txt_nombre.Name = "txt_nombre";
             this.txt_nombre.Size = new System.Drawing.Size(353, 20);
             this.txt_nombre.TabIndex = 6;
+            this.txt_nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_nombre_KeyPress);
             // 
             // txt_apellido
             // 
@@ -129,6 +133,7 @@
             this.txt_apellido.Name = "txt_apellido";
             this.txt_apellido.Size = new System.Drawing.Size(353, 20);
             this.txt_apellido.TabIndex = 7;
+            this.txt_apellido.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_apellido_KeyPress);
             // 
             // txt_telefono
             // 
@@ -136,6 +141,7 @@
             this.txt_telefono.Name = "txt_telefono";
             this.txt_telefono.Size = new System.Drawing.Size(353, 20);
             this.txt_telefono.TabIndex = 8;
+            this.txt_telefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_telefono_KeyPress);
             // 
             // txt_dni
             // 
@@ -143,6 +149,8 @@
             this.txt_dni.Name = "txt_dni";
             this.txt_dni.Size = new System.Drawing.Size(353, 20);
             this.txt_dni.TabIndex = 9;
+            this.txt_dni.TextChanged += new System.EventHandler(this.txt_dni_TextChanged);
+            this.txt_dni.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_dni_KeyPress);
             // 
             // txt_correo
             // 
@@ -171,6 +179,10 @@
             this.bt_agregar.UseVisualStyleBackColor = true;
             this.bt_agregar.Click += new System.EventHandler(this.bt_agregar_Click);
             // 
+            // validate
+            // 
+            this.validate.ContainerControl = this;
+            // 
             // Form_nuevoCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -193,6 +205,7 @@
             this.Text = "Form_nuevoCliente";
             this.Load += new System.EventHandler(this.Form_nuevoCliente_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.validate)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -214,5 +227,6 @@
         private System.Windows.Forms.TextBox txt_correo;
         private System.Windows.Forms.Button bt_cancelar;
         private System.Windows.Forms.Button bt_agregar;
+        private System.Windows.Forms.ErrorProvider validate;
     }
 }

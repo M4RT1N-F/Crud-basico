@@ -40,11 +40,89 @@ namespace cliente
         {
             this.DialogResult = DialogResult.OK;
             insertarCliente();
+           
         }
-
+      
         private void bt_cancelar_Click(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult.Cancel;
+        }
+        
+        private void txt_nombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (char.IsLetter(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if(char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (char.IsSeparator(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+                
+            }
+        }
+
+        private void txt_apellido_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (char.IsLetter(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (char.IsSeparator(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+               
+            }
+        }
+
+        private void txt_telefono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (char.IsDigit(e.KeyChar))
+            {
+                e.Handled = false;
+            }else if (char.IsControl(e.KeyChar)) 
+            {
+                e.Handled = false;
+            }else 
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txt_dni_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void txt_dni_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (char.IsDigit(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
         }
     }
 }
